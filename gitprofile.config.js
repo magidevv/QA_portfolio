@@ -53,13 +53,6 @@ const config = {
   ],
   experiences: [
     {
-      company: 'QATestLab',
-      position: 'Intern student [online-course]',
-      from: 'July 2023',
-      to: 'August 2023',
-      companyLink: 'https://qatestlab.com',
-    },
-    {
       company: 'Luxe Quality',
       position: 'AQA Trainee',
       from: 'October 2023',
@@ -138,11 +131,11 @@ const config = {
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
-    respectPrefersColorScheme: false,
+    respectPrefersColorScheme: true,
 
     // Hide the ring in Profile picture
     hideAvatarRing: false,
